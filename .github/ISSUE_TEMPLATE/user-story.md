@@ -7,9 +7,9 @@ assignees: ''
 
 ---
 
-**As a** [role]  
- **I need** [function]  
- **So that** [benefit]  
+**As a** registered user  
+ **I need** to create a new task in the Kanban board  
+ **So that** I can organize my work efficiently  
    
  ### Details and Assumptions
  * [document what you know]
@@ -17,7 +17,7 @@ assignees: ''
  ### Acceptance Criteria  
    
  ```gherkin
- Given [some context]
- When [certain action is taken]
- Then [the outcome of action is observed]
+ Given user is logged into the system
+ When user enters a valid task title "Fix login bug"
+ Then system should save the new task
  ```
